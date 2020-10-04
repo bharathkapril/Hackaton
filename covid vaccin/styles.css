@@ -1,0 +1,223 @@
+.custom_nav
+{
+    
+    box-shadow: 0px 2px 12px rgba(0,0,0,.3);
+}
+
+
+.coustom-divider
+{
+    height: 5px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,21,189,1) 20%, rgba(78,255,6,0.9363095580028886) 44%, rgba(48,224,92,1) 71%, rgba(0,255,206,1) 81%, rgba(0,212,255,1) 100%);
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-weight: bold;
+    font: outline;
+}
+.main-banner
+{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(/img/logo.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+.main-banner-content
+{
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.blinking{
+    font-weight: bolder;
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{    color: red;   }
+    49%{  color: red;}
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: red;   }
+}
+
+.content-holder
+{
+   
+    color: black;
+}
+.content > main > h1
+{
+    text-align: center;
+    text-transform: capitalize;
+    color: chartreuse;
+    font-weight: bolder;
+    font-family: serif;
+}
+.content
+{
+    max-width: 10000px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+
+}
+
+.content h1
+{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content p
+{
+    font-size: medium;
+    font-family: sans-serif;
+}
+/* About Us */
+.about-slidebar{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.about-text-widget{
+    text-align: center;
+}
+.about-text-widget h2{
+    font-size: 1.3em;
+}
+.about-text-widget p{
+    font-size: 14px;
+}
+.about-text-widget{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#about-slider-content li .card
+{
+    text-align: center;
+}
+#about-slider-content li .card img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+#about-slider-content li .card .card-title
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+#about-slider-content li .card .card-text{
+    font-size: 14px;
+}
+/* About Us */
+
+/* Contact */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.modal-body1 {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    padding-top: 100px;
+}
+.modal-body1 p{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+/* Contact */ 
+
+
+/* Precaution */
+.pre{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.pre-card
+{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.pre-card .card-title
+{
+    font-size: 1.2em;
+    line-height: 25px;   
+}
+.pre-card .card-text {
+    font-size: 14px;
+}
+.pre-card img{
+   height: 231.39px;
+}
+.card-body1{
+    height: 210.8px;
+    padding: 20px;
+}
+/* Precaution */
+
+footer.main-footer {
+    padding-top: 35px;
+    background: rgb(5,238,241);
+    background: linear-gradient(277deg, rgba(5,238,241,1) 26%, rgba(45,253,111,1) 100%);
+    padding-bottom: 35px;
+   
+}
+
+aside.footer-widget {
+    margin-bottom: 25px;
+    padding-top: 35px;
+}
+aside.footer-widget h6 {
+    font-size: 16px;
+}
+aside.footer-widget ul {
+     list-style-type: none; 
+     margin: 0px;
+     padding: 0px;
+}
+aside.footer-widget ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: blue;
+}
+address h2{
+    font-size: 20px;
+}
+address p{
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+section.copy {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: skyblue;
+    font-size: 14px;
+    text-align: center;
+}
+section.copy p{
+    margin: 0px;
+}
